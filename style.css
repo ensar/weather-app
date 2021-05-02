@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background: url(federico-respini-sYffw0LNr7s-unsplash.jpg);
+    background-size: cover;
+}
+
+.container{
+    width:400px;
+    height:450px;
+    background:#fdcb6e;
+    margin:80px auto;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location{
+    margin:20px 0;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 20px;
+    color:rgb(14, 12, 12);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.location i{
+    color:#fff;
+    margin-right: 10px;
+}
+#image{
+    background:#fff;
+    border-radius: 1rem;
+    width:80px;
+    height:80px;
+    margin-bottom:20px
+}
+#img{
+    width: 64px;
+    height: 64px;
+}
+
+.state{
+    margin-bottom:20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.temperature{
+    width:150px;
+    height:80px;
+    background:#e67e22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    border-radius: 1rem;
+}
+.feel{
+    margin-top: 10px;
+    width:140px;
+    height:20px;
+    background:#fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.last-update{
+    margin-top:70px;
+}
